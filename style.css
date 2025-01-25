@@ -36,6 +36,15 @@ body {
     padding: 10px 0; /* Adicionando padding para melhor espaçamento */
 }
 
+header h1 a{
+    text-decoration: none;
+    color: white;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
 .nav ul {
     list-style: none;
     padding: 0;
@@ -51,11 +60,8 @@ body {
 .nav ul li a {
     color: white;
     text-decoration: none;
-}
-
-.nav ul li a:hover {
-    background-color: rgba(255, 255, 255, 0.400);
-    color: black;
+    font-weight: bolder;
+    font-size: 1.2em;
 }
 
 
@@ -64,6 +70,10 @@ body {
     .header {
         margin-left: 5%; /* Reduzir margem esquerda em telas menores */
         margin-right: 5%; /* Reduzir margem direita em telas menores */
+    }
+
+    .header h1 {
+        font-size: 2em;
     }
 
     .nav ul {
