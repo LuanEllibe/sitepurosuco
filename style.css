@@ -168,39 +168,54 @@ display: block; /* Remove o espaço abaixo da imagem (por causa da linha de base
     color: white;
 }
 
+.portfolio-background {
+    background-image: url('spiderfull.png'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Faz a imagem cobrir todo o fundo */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Não repete a imagem */
+    padding: 20px; /* Adiciona um espaçamento interno */
+    color: white; /* Altera a cor do texto para branco (opcional) */
+}
+
+@media (max-width: 768px) {
+    .portfolio-background {
+        padding: 10px; /* Ajusta o padding em telas menores */
+    }
+}
+
 footer {
-    background-color: white;
-    color: black;
-    padding: 10px 20px;
+    background-color: #f8f8f8; /* Cor de fundo suave */
+    color: #333; /* Cor do texto mais escura para melhor contraste */
+    padding: 20px; /* Aumenta o padding para mais espaço */
     text-align: center;
+    font-family: Arial, sans-serif; /* Fonte mais moderna */
 }
 
 .footer-container {
     display: flex;
-    justify-content: space-between; /* Mantém os itens em linha */
-    flex-wrap: wrap; /* Permite que os itens se movam para a próxima linha em telas menores */
-    border-bottom: 2px solid #fff;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 10px; /* Espaçamento inferior */
 }
 
 .footer-info, .footer-social {
-    margin: 5px; /* Reduzido o margin */
+    margin: 10px; /* Aumenta o margin para mais espaço */
     max-width: 300px; /* Limita a largura para melhor responsividade */
     flex: 1; /* Permite que os itens cresçam igualmente */
 }
 
 .footer-info h2, .footer-social h3 {
-    margin: 5px 0; /* Reduzido o margin */
-    font-size: 18px; /* Tamanho da fonte ajustado */
-    border-bottom: 1px solid #fff;
+    margin: 10px 0; /* Aumenta o margin */
+    font-size: 20px; /* Tamanho da fonte ajustado */
 }
 
 .footer-info p, .footer-social p {
-    margin: 3px 0; /* Reduzido o margin */
+    margin: 5px 0; /* Aumenta o margin */
     font-size: 14px; /* Tamanho da fonte ajustado */
 }
 
 .footer-info a, .footer-social a {
-    color: #1e90ff;
+    color: #1e90ff; /* Cor azul */
     text-decoration: none;
     transition: color 0.3s ease;
 }
@@ -211,9 +226,10 @@ footer {
 }
 
 .footer-bottom {
-    margin-top: 10px; /* Reduzido o margin */
+    margin-top: 20px; /* Aumenta o margin */
     font-size: 12px; /* Tamanho da fonte ajustado */
-    border-top: 1px solid #fff;
+    border-top: 1px solid #ddd; /* Cor de borda mais suave */
+    padding-top: 10px; /* Espaçamento superior */
 }
 
 /* Estilos responsivos */
@@ -229,7 +245,7 @@ footer {
     }
 
     .footer-info h2, .footer-social h3 {
-        font-size: 16px; /* Tamanho da fonte ajustado para telas menores */
+        font-size: 18px; /* Tamanho da fonte ajustado para telas menores */
     }
 
     .footer-info p, .footer-social p {
@@ -237,6 +253,6 @@ footer {
     }
 
     .footer-bottom {
-        font-size: 10px;
+        font-size: 10px; /* Tamanho da fonte ajustado para telas menores */
     }
 }
