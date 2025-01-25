@@ -120,7 +120,7 @@ header h1 {
     .header {
         margin-left: 2%; /* Reduzir margem esquerda em telas muito pequenas */
         margin-right: 2%; /* Reduzir margem direita em telas muito pequenas */
-    }
+    } }
 
 article {
     max-height: 1100px;
@@ -129,6 +129,17 @@ article {
 #home {
     background-color: rgb(255, 255, 255);
     color: black;
+}
+
+.imagem-container {
+    width: 100%; /* Faz o contêiner ocupar 100% da largura disponível */
+    max-width: 100%; /* Garante que o contêiner não ultrapasse o tamanho máximo */
+    overflow: hidden; /* Impede o transbordamento de qualquer conteúdo */
+}
+.imagem-container img {
+    width: 100%; /* Faz as imagens ocuparem 100% da largura do contêiner */
+    height: auto; /* Mantém a proporção original da imagem */
+display: block; /* Remove o espaço abaixo da imagem (por causa da linha de base) */
 }
 
 #pesquisar {
@@ -217,4 +228,4 @@ footer {
     .footer-bottom {
         font-size: 10px;
     }
-} }
+}
