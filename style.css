@@ -92,6 +92,17 @@ header h1 {
     color: white;
 }
 
+#portfoliopag {
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#portfoliopag:hover {
+    background-color: rgba(255, 255, 255, 0.300);
+}
+
 
 /* Media Queries para responsividade */
 @media (max-width: 500px) {
