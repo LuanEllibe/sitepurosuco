@@ -36,6 +36,10 @@ body {
     padding: 10px 0; /* Adicionando padding para melhor espaçamento */
 }
 
+header h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 header h1 a{
     text-decoration: none;
     color: white;
@@ -62,6 +66,30 @@ header h1 {
     text-decoration: none;
     font-weight: bolder;
     font-size: 1.2em;
+}
+
+#home {
+    padding: 7%;
+    background-color: #ffffff;
+    color: black;
+}
+
+#pesquisar {
+    padding: 7%;
+    background-color: black;
+    color: white;
+}
+
+#carreira {
+    padding: 7%;
+    background-color: #ffffff;
+    color: black;
+}
+
+#portfolio {
+    padding: 7%;
+    background-color: black;
+    color: white;
 }
 
 
@@ -95,7 +123,7 @@ header h1 {
     }
 
 article {
-    height: 700px;
+    max-height: 1100px;
 }
 
 #home {
