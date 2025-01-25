@@ -79,7 +79,7 @@ header h1 {
 
     .nav ul {
         justify-content: space-between; /* Distribuir os itens em duas colunas */
-        font-size: 0.9em;
+        font-size: 0.8em;
     }
 }
 
