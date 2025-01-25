@@ -68,6 +68,7 @@ header h1 {
 /* Media Queries para responsividade */
 @media (max-width: 500px) {
     .header {
+        padding: 7%;
         margin-left: 5%; /* Reduzir margem esquerda em telas menores */
         margin-right: 5%; /* Reduzir margem direita em telas menores */
     }
@@ -78,11 +79,7 @@ header h1 {
 
     .nav ul {
         justify-content: space-between; /* Distribuir os itens em duas colunas */
-    }
-
-    .nav ul li {
-        flex: 1 1 45%; /* Permitir que os itens ocupem até 45% da largura */
-        margin: 5px 0; /* Margem vertical entre os itens */
+        font-size: 0.9em;
     }
 }
 
@@ -91,12 +88,6 @@ header h1 {
         margin-left: 2%; /* Reduzir margem esquerda em telas muito pequenas */
         margin-right: 2%; /* Reduzir margem direita em telas muito pequenas */
     }
-
-    .nav ul li {
-        flex: 1 1 45%; /* Permitir que os itens ocupem até 45% da largura */
-        margin: 5px 0; /* Margem vertical entre os itens */
-    }
-}
 
 article {
     height: 700px;
@@ -193,4 +184,4 @@ footer {
     .footer-bottom {
         font-size: 10px;
     }
-}
+} }
