@@ -75,11 +75,16 @@ header h1 {
 
     .header h1 {
         font-size: 2em;
+        padding: 0px;
+        margin: 0px;
     }
 
     .nav ul {
         justify-content: space-between; /* Distribuir os itens em duas colunas */
         font-size: 0.8em;
+        padding: 0px;
+        margin: 0px;
+        padding-top: 10px;
     }
 }
 
