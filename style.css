@@ -94,13 +94,79 @@ header h1 {
 
 #portfoliopag {
     text-decoration: none;
-    color: white;
-    border-radius: 5px;
-    padding: 5px;
 }
 
 #portfoliopag:hover {
-    background-color: rgba(255, 255, 255, 0.300);
+    color: black;
+}
+
+/* Estilos gerais para os artigos */
+article {
+    max-width: 800px; /* Limita a largura máxima dos artigos */
+    margin: 20px auto; /* Centraliza os artigos com margem superior e inferior */
+    padding: 20px; /* Adiciona espaçamento interno */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave para destaque */
+    background-color: #ffffff; /* Fundo branco para os artigos */
+    color: #333; /* Cor do texto */
+}
+
+article h1 {
+    font-size: 2em; /* Tamanho do título principal */
+    margin-bottom: 10px; /* Espaçamento abaixo do título */
+    color: #1e90ff; /* Cor do título */
+}
+
+article h2, article h3 {
+    font-size: 1.5em; /* Tamanho dos subtítulos */
+    margin-top: 20px; /* Espaçamento acima dos subtítulos */
+    margin-bottom: 10px; /* Espaçamento abaixo dos subtítulos */
+    color: #333; /* Cor dos subtítulos */
+}
+
+article p {
+    line-height: 1.6; /* Aumenta o espaçamento entre linhas para melhor legibilidade */
+    margin-bottom: 15px; /* Espaçamento abaixo dos parágrafos */
+}
+
+article ul {
+    list-style-type: disc; /* Estilo de lista com marcadores */
+    margin-left: 20px; /* Margem à esquerda para listas */
+}
+
+article ul li {
+    margin-bottom: 10px; /* Espaçamento abaixo dos itens da lista */
+}
+
+/* Links dentro dos artigos */
+article a {
+    color: #1e90ff; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado */
+    transition: color 0.3s ease; /* Transição suave para a cor */
+}
+
+article a:hover {
+    color: #ffcc00; /* Cor ao passar o mouse */
+    text-decoration: underline; /* Sublinha ao passar o mouse */
+}
+
+/* Estilos responsivos */
+@media (max-width: 600px) {
+    article {
+        padding: 15px; /* Reduz o padding em telas menores */
+    }
+
+    article h1 {
+        font-size: 1.8em; /* Tamanho do título principal em telas menores */
+    }
+
+    article h2, article h3 {
+        font-size: 1.3em; /* Tamanho dos subtítulos em telas menores */
+    }
+
+    article p {
+        font-size: 14px; /* Tamanho da fonte dos parágrafos em telas menores */
+    }
 }
 
 
@@ -133,10 +199,6 @@ header h1 {
         margin-right: 2%; /* Reduzir margem direita em telas muito pequenas */
     } }
 
-article {
-    max-height: 1200px;
-}
-
 #home {
     background-color: rgb(255, 255, 255);
     color: black;
@@ -168,19 +230,10 @@ display: block; /* Remove o espaço abaixo da imagem (por causa da linha de base
     color: white;
 }
 
-.portfolio-background {
-    background-image: url('spiderfull.png'); /* Substitua pelo caminho da sua imagem */
-    background-size: cover; /* Faz a imagem cobrir todo o fundo */
-    background-position: center; /* Centraliza a imagem */
-    background-repeat: no-repeat; /* Não repete a imagem */
-    padding: 20px; /* Adiciona um espaçamento interno */
-    color: white; /* Altera a cor do texto para branco (opcional) */
-}
-
-@media (max-width: 768px) {
-    .portfolio-background {
-        padding: 10px; /* Ajusta o padding em telas menores */
-    }
+.responsive-image {
+    width: 100%; /* Faz a imagem ocupar 100% da largura do contêiner pai */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Remove o espaço abaixo da imagem (por causa da linha de base) */
 }
 
 footer {
