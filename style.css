@@ -115,22 +115,22 @@ article {
     height: 700px;
 }
 
-#section1 {
+#home {
     background-color: rgb(255, 255, 255);
     color: black;
 }
 
-#section2 {
+#pesquisar {
     background-color: black;
     color: white;
 }
 
-#section3 {
+#carreira {
     background-color: rgb(255, 255, 255);
     color: black;
 }
 
-#section4 {
+#portfolio {
     background-color: black;
     color: white;
 }
